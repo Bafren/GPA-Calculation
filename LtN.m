@@ -1,4 +1,4 @@
-function num = LtN(letter)
+function num = LtN(letter)    %Function LtN used to convert letter grades to number.
 num=0;
 for k=1:length(letter)
     switch letter(k)
@@ -12,6 +12,6 @@ for k=1:length(letter)
             num(k)=1;
         case 'E'
             num(k)=0;
-    end
-end
+    end % the end of switch
+end  % the end of for
 
